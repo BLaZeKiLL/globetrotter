@@ -11,7 +11,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run"
+		"test": "npm run test:unit -- --run",
+		"geo:nyc": "node ./geo/scripts/nyc.geojson.js"
 	},
 	"devDependencies": {
 		"@skeletonlabs/skeleton": "^3.0.0-next.5",
